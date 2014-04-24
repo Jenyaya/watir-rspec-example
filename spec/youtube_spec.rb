@@ -5,6 +5,9 @@ describe 'Youtube open page' do
   before :all do
     start_browser
   end
+  after :all do
+    close_browser
+  end
 
   it 'I open page' do
     open_page('youtube.com')
