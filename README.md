@@ -1,4 +1,4 @@
 watir-rspec-example
 ===================
 
-Used Ruby, Watir-webdriver and Rspec.
+Used Ruby, watir-webdriver and Rspec via ChromeDriver.
