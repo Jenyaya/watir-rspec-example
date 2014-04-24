@@ -19,7 +19,7 @@ describe 'Youtube open page' do
   end
 
   it 'should see result' do
-     $browser.text.include?('How to select list box Value in Selenium WebDriver')
+     expect($browser.text.include?('How to select list box Value in Selenium WebDriver')).to be_true
   end
 
 end
