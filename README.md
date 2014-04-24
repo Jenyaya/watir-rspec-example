@@ -10,6 +10,6 @@ Version
 Installation
 --------------
 
-'''sh
+```sh
 git clone https://github.com/Jenyaya/watir-rspec-example
-'''
+```
